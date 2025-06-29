@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hack Console</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loading-screen">
+    <h2 class="typing">Accessing Number...</h2>
+    <p class="glow">Target: 03702073138</p>
+    <div class="terminal-loader"></div>
+  </div>
+
+  <div id="main-interface" class="hidden">
+    <h2 class="glow">Hack Control Panel</h2>
+
+    <div id="numbers">
+      <input type="text" placeholder="Enter target number" class="number-input" />
+    </div>
+    <button id="add-number">+ Add Number</button>
+
+    <textarea id="message" placeholder="Enter message to send"></textarea>
+    <button id="send">SEND</button>
+
+    <div id="status" class="hidden">Processing...</div>
+    <div id="result" class="hidden">✅ Message Sent!</div>
+
+    <hr class="divider"/>
+
+    <h3 class="glow">⚠️ Target Tools</h3>
+    <button id="ban-whatsapp">🚫 Ban WhatsApp Permanently</button>
+    <button id="auto-ban-whatsapp">🔒 Auto-ban Future WhatsApp Numbers</button>
+
+    <footer>
+      <p>⚠️ This tool is for <strong>prank & educational</strong> purposes only. No real systems are accessed.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
